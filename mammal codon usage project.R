@@ -2,7 +2,7 @@
 library(factoextra)
 
 #Make the data object cdata
-cdata=codon_usage
+cdata=read.csv("codon_usage.csv")
 
 #Eplore the dataset characteristics
 str(cdata)
